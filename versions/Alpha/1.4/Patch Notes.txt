@@ -1,0 +1,19 @@
+-Added animations to the title screen.
+-Added system where you can load/save when the file does not exist.
+-Fixed loading in Survival Mode.
+	-The counter resets.
+-Fixed/Implemented Blinking Animations!
+	-Slimey Joe and Pedaller blink now for one second after they are hurt (blink for one second).
+	-The player doesn't randomly disappear for a second after blinking now (blink for two seconds).
+-Fixed jumping in the air.
+	-It's like double jumping, but without the second jump (would be too generic)
+	-Would help for different level designs.
+-Fixed Joe's death sound.
+	-It used to not play every once in a while.
+-Fixed left + right + jump.
+-Fixed when you press both left and right, direction doesn't change.
+	-This is so Sticky's not always facing right.
+-Made the energy ball go faster.
+-Made menu clicking way more satisfying.
+	-It waits for you to release your mouse click before you go to that menu state.
+	-Also, if you release your mouse click outside the previously selected box, no action is registered.

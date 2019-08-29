@@ -1,0 +1,21 @@
+playerPos: 384 416
+joe:
+869 432
+1473 432
+pedaller:
+986 432
+flower:
+450 416
+675 384
+854 432
+538 272
+1018 432
+1236 400
+1520 384
+coin:
+616 336
+986 390
+fakeDirt:
+fakeRightDirt:
+score: tempScore
+movingPlatform:

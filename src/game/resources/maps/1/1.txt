@@ -1,0 +1,2 @@
+music: resources/audio/music/SongMap1.wav
+playerPos: 16 160

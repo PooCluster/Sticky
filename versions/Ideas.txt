@@ -1,0 +1,73 @@
+-Customizable Costumes
+	-Might need to change the parameters on update for player so it renders another object on top of the player like a hat that also animates
+-Need more enemies - based on nature
+	-Maybe an enemy with its own projectile
+-Add a boss with boss level mechanics (Should take at least 1 week)
+	-First boss will be a fight boss: screen will lock onto stage
+	-Another boss will be a chase boss: will chase you back to the beginning of the level
+//-Change the level load delay ish to just pressing and releasing key
+-Add some birds (have weird AI: land on the ground, and then fly up)
+///-Animate clouds so they explode when the energy ball hits it
+//-Make clouds not look like dongs
+-Add sound effects in the game for actions done
+-Melee animations (Ask Ray for help)
+-Different textures for different themes
+	-Maybe tell stories in between theme changes
+-Make a menu screen:
+	-Choose singleplayer/multiplayer
+	-Settings: 
+		//-Choose music on or off
+		-If really tryhard, you can change keybindings
+	-When you click, don't change the menu state until mouse released within the originally clicked box
+		//-When box is clicked, change the box to show that the box is clicked
+	//-Have help that shows all the controls
+-Multiplayer: //SUPER LATE
+	-Can 1v1 each other
+	-Completely new story mode
+	//-THERE WILL BE LOCAL
+	-AND ONLINE
+-Endless runner mode
+//-Blur effect (Gaussian) for pause/game over
+	//-Basically impossible
+-Make a logo/icon for the game
+	-Make it animated
+//-Make theme of the game day/night depending on the time of day
+-Add dialogue with NPC's (smaller text)
+	-Will help to develop the story
+-Add a shop maybe where you could get stuff
+	-Subtracts from your score, but then you obtain stuff!
+-Add more stuff in the background for more parallax effect
+-Add a sun/moon in the sky
+//-Make secret walls transparent when Player makes contact with them (blink on and off every update)
+-Add underground levels.
+//-Add moving platforms.
+-Cut scenes!
+-Achievements system
+-Move the game eventually into LWJGL 3
+-Add rain
+-Treasure chest
+-Windowless mode/Fullscreen
+
+
+OTHER IDEAS
+-Random textures
+-Underground theme:
+    -Mushrooms
+-Underground mushroom stuff
+-Different types of rock (hang from ceilings and stuff)
+-Ray: Stalagknight...?
+-Background has some giant mushrooms
+-Boss should be a mushroom wizard
+    -When dead: "No, I was just trying to protect my mushroom village."
+-Walk past mushroom village, escape village and go to quest hub.
+
+-Forest, rock, desert, ice, graveyard, hell
+
+-Kaley: put a princess in the game.
+-RJ: PLOT TO THEME LEVELS AROUND
+-Chloe: Enemy that shoots.
+
+
+
+-GOAL (Maybe): Turn this game into an RPG.
+	-Makes it unique: a 2D Platformer RPG

@@ -1,0 +1,17 @@
+Version 1.7
+-Added stone tiles!
+	-Because some levels are going to be stone-themed, randomness was added to make the stone-themed levels more interesting.
+-Improved the game logic a bit.
+	-The ability to use the menu while paused.
+	-The ability to use the menu while game over.
+	-Moved paused and game over texts to the right so they don't interfere with the menu.
+-Improved cloud collisions.
+-Fixed bug where every once in a while, the player would be falling without the implementation of gravity.
+-Fixed speed on moving platforms.
+	-Before on the platform, the player would always move at walking speed despite pressing sprint or crouch.
+-Fixed the time transition cycles.
+	-Before, when restarting, it would revert back to the previous time period.
+-Changed "Singleplayer" to "Single Player."
+-Changed when the music begins to play when first opening up the game.
+	-Before, the music would play before the window even popped up every time.
+-Changed the method for how levels were rendered a little bit so stone tiles could be random.

@@ -1,0 +1,21 @@
+music: resources/audio/music/SongMenu1.wav
+playerPos: 624 624
+joe: 
+pedaller: 
+flower:
+1526 544
+118 576
+696 592
+334 624
+600 624
+632 624
+1590 624
+1450 624
+1184 640
+coin: 
+text: 
+fakeDirt: 
+fakeRightDirt: 
+score: tempScore
+movingPlatform:
+624 600 0 false false 1 move stone

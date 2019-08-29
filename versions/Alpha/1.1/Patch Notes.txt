@@ -1,0 +1,2 @@
+-No more delays on loading levels! Every level can be loaded now by pressing the next or previous level buttons as long as you have been there before.
+-Music volume reduces when paused!

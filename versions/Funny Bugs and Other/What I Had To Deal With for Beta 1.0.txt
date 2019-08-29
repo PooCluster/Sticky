@@ -1,0 +1,64 @@
+-Changed moving platform code for when player is on (so there can be two players on it independently).
+-Rewrite the menu.
+	-Action
+		-New Game
+		-Load Game
+		-Save Game
+	-Mode
+		-Single Player
+		-Multiplayer
+	-Gallery
+	-Settings
+		-Music - +
+		-Music On Off
+		-SFX - +
+		-SFX On Off
+		-Brightness - +
+		-Controls
+	-Exit
+-Next, make another player.
+-Have hearts display for the second player.
+-Have camera focused on the first player.
+
+
+
+
+Areas to check for multiplayer
+//MovingPlatform
+//Locations
+//LoadSave
+Menu
+
+//Fix double speed on mobs
+//When loading/restarting
+//Moving platforms - that was the hardest thing ever.
+//-Jump velocities reset now once you land on a platform.
+//When player two is dead, don't change direction
+//Heart2
+//When switching between Single Player and Multiplayer, fix translation
+//Fix the transparent dirt tiles
+//Random counter starter (so the animations are not in sync with each other).
+//Ball 2
+//Different Controls (Maybe have an array for the keys rather than just keys like up[0] instead of just up).
+
+//Fix restart when one of the players die (reset the health)
+//-Didn't test yet, but implemented.
+
+//-If second player dies but first player makes it to the end of the level, second player should have one health next level.
+-Change help text eventually because it's not really relevant for multiplayer
+If player 2 gets too far away, tp back to first player.
+//Fix flying bug.
+//-Fix dayTime logic.
+//-Fix ball noises.
+//-Fix new game.
+-Figure out what's tanking the FPS.
+	-Checked ball code.
+	-Checked menu code.
+	-Checked help code.
+	-Checked Joe code.
+	-
+
+
+//CHANGE PARAMETERS CALLING LOADSAVE IN GAME CLASS.
+//File Format:
+//Mode Player1HP Player2HP Level LevelsWon Score HighScore

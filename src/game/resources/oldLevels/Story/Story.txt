@@ -1,0 +1,9 @@
+playerPos: 320 336
+joe:
+pedaller:
+flower:
+coin:
+fakeDirt:
+fakeRightDirt:
+score: tempScore
+movingPlatform:

@@ -1,0 +1,43 @@
+public void survivalLogic() throws LineUnavailableException, UnsupportedAudioFileException, UnsupportedAudioFileException, IOException {
+        Random random = new Random();
+        if (survivalTimerCountdown != 0) {
+            for (int i = 0; i < 5; i++) {
+                if (survivalTimerCountdown <= 60 + (60 * i)) {
+                    countdown = new Text((level.getWidth() * 16) / 2, 286, 27 + i);
+                    break;
+                }
+            }
+            survivalTimerCountdown--;
+            if (survivalTimerCountdown == 0) {
+                int i = random.nextInt(2);
+                    if (i == 0) {
+                        joe.add(new Joe(32, 176));
+                    } else if (i == 1) {
+                        joe.add(new Joe(level.getWidth() * 16 - 32, 176));
+                    }
+                countdown = null;
+            }
+        } else {
+            survivalTimer++;
+            if (survivalTimer == 125) {
+                if (player.size() == 2) {
+                    if (!player.get(0).isDead() && !player.get(1).isDead()) {
+                        int i = random.nextInt(2);
+                        if (i == 0) {
+                            joe.add(new Joe(32, 176));
+                        } else if (i == 1) {
+                            joe.add(new Joe(level.getWidth() * 16 - 32, 176));
+                        }
+                    }
+                } else if (!player.get(0).isDead()) {
+                    int i = random.nextInt(2);
+                    if (i == 0) {
+                        joe.add(new Joe(32, 176));
+                    } else if (i == 1) {
+                        joe.add(new Joe(level.getWidth() * 16 - 32, 176));
+                    }
+                }
+                survivalTimer = 0;
+            }
+        }
+    }

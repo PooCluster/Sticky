@@ -1,0 +1,184 @@
+1.2
+-Fixed logo.
+
+
+1.1
+//-Added clouds back in, accidentally voided them in the rendering process.
+//-Have clouds automatically render themselves so I don't have to deal with them.
+//-Convert everyting to ArrayList.
+	//-There is no limit to score.
+//-The camera now focuses between the two players instead of only on player one.
+-Move levels so levels is its own resource folder.
+-Hearts and score render independently of player's position
+//-Implement momentum
+	//-Only to sprints
+	//-Cancel momentum when colliding with a wall
+	//-Cancel potential momentum increase when not on the ground.
+		-However, if gained momentum, don't lose it if not on the ground.
+-Implement a +1 -1 kind of thing.
+	-For scoring
+-Improved level editor a little bit more so that I can add texts into every level.
+//-Removed help texts
+	//-No longer necessary, and it just kind of looked messy
+//-Reorganized code, main class is a lot cleaner
+	//-Took a huge part of the time for this update
+	-//It went from 905 lines to 121 lines
+//-Made levels numerically based, just for the sake of convenience
+-Utilized Stacks (GameStateManager), HashSet (levelsCompleted), recursion (format the map)
+	-States:
+		-Title Screen State
+			-Like Level State, but has uncloseable menu and a logo
+		-Map Level Selection State
+		-Level State
+-Redid the menu again
+	-Now have a button class (less hard coding)
+	-I can put the buttons anywhere on the screen
+	-Rendering is not based off the player's position
+	-I can have one button unit that can have multiple outlines
+	-The menu now depends on the game state
+	-Removed brightness changing from the settings
+		-Just not worth it
+	-Implement control changing in menu system
+		-Text I still need: ` ; [ ] \
+	-Decided that menu is now equivalent to pause
+		-No more pause text
+//-Removed survival mode.
+//-Improved multiplayer experience
+	//-Camera is not only focused on the first player anymore (felt unfair priority)
+		//-Camera now focuses on the distance between both players
+		//-If the players get a certain distance from each other, split screen
+			//-The leftmost player will always render on the left
+			//-The rightmost player will always render on the right
+//-Added nice music (map selection and death screen)
+//-Can now load/save to three different files
+
+TO DO
+
+FIRST PRIORITY:
+
+
+//-Fix player sprint wall collision
+//-Fix sounds playing in split screen
+//-Center players
+//-Fix player cameras when dead
+-Fix code format for all rendering
+//-Delete all old commented-out code
+//-Put the music back in the game
+//-Put the intro back in the game
+//-Fix the player when dead sprint
+//-Fix save
+	//-I want it so if I load, I can save to that file without override ask
+	//-Override required if: the name is "NEW" or a slot that does not match the current slot
+//-Fix layers for menu in map selection state
+
+-Charge energy ball shot
+-Multiple Save Files
+	-Be able to name save files in general
+-Add mini map?
+-New Game
+	-Play an intro video before anything
+-fIX PLATFORM
+
+
+
+SECOND PRIORITY:
+
+-Allow levels to load their own sound tracks
+-Create a Sound class that handles all the sound
+	-Improvements
+		-Joe no longer stores each individual sound
+		-The sound files are only read from once and then are copied amongst the multiples of it
+-Make HUD a static class later
+-Make an entity class above Mob, because Mob sucks now.
+	-Will just contain x and y
+-Make menu a static class later
+-Make other entities interact with the movingPlatform
+-
+
+THIRD PRIORITY:
+-Randomize flower positions a bit in level editor
+
+
+-Figure out a way to deal with clouds
+-Add moving block (one the player can push)
+
+
+
+-Transparency
+-Tiles that hurt the player
+	-Lava is too generic
+-Store all the stone sprites under one array of sprites
+-Game over text with high score should be calculated mathematically using ArrayLists instead of arrays
+
+
+-Transfer code to Android Studio
+-Clouds that render in the background (16x16 instead of 32x32); don't explode
+-Tiles that hurt the player
+-Change fake tiles so they are all stored under array of one object.
+-More level design
+-Move heart and score methods out of main class.
+-Checkpoints in levels
+-Make blocks that Sticky can jump down from.
+-Change heights of Joes in level 2, because they all jump simultaneously.
+-Coin sound.
+	-CHLOE
+-Animation for Pedaller before he/she errupts from the ground.
+-Item that you can shoot with using the mouse to aim.
+-Check camera one more time before switching camera focus from player 1 to player 2.
+	-For background.
+-Should add water.
+-Have a load screen.
+-Amp up Joe sounds.
+-NEW ENEMY
+	-Cat: Chloe voices.
+-Purple Flowers
+-Add spam
+-Melee
+	-Kick/Punch with knockback to the enemy
+-Pan sfx Slimey Joe based on where he is relative to the camera.
+
+DIFFERENT PROJECT/-Make software that creates levels
+	-Choose the size of the level
+	-Have two layers
+		-One for the actual level
+		-Second one for all the entities on top (including fake walls)
+	-Creates a file for the level and a PNG
+	-Able to open stuff
+
+AJ Priority:
+-Hurt sound
+-Charge shot
+-NEW ENEMY
+	-Fish: AJ voices
+	-Bird: ""
+-New story
+-Be able to move camera
+-Endless mode/Wave mode
+-Learning abilities (from enemies or NPCs or level ups)
+	-may include:
+		-jumping - Slimey Joe
+		-burrowing in the ground - Petaller
+		-double jump - ?
+		-melee - ?
+		-block - ?
+		-swim - ?
+		-teleportation - ?
+	-limited amount of abilities to use per level
+-Tutorial
+	-includes how to use new abilities when learned
+-Fall damage
+-Half damage values
+-AFK animation
+-NPCs
+-Changing environment
+	-sprint past a flower causes it to blow over a little bit
+-Items (from shops or drops)
+	-food to replenish health
+	-coin drops from killing mobs
+-XP system/level up system
+
+
+WITHIN NEXT TWO UPDATES
+How many bosses you want and how you want them to be distinguishable
+START THINKING ABOUT
+How deep you want the story to be

@@ -1,0 +1,34 @@
+Version 1.0 Beta
+-Added the text back in the home level.
+-Added energy ball sound effects!
+-Added a camera class.
+	-Save a lot of lines checking boundaries, because now I only have to check once.
+	-The camera can now lock both vertically and horizontally simultaneously.
+		-This would be useful for pitfalls at the end of levels.
+-Added local multiplayer!
+	-A second set of hearts are added.
+	-The players share the score.
+	-The camera is focused on the first player.
+	-Second player controls:
+		-Arrow keys for moving.
+		-"," for sprinting.
+		-"." for attack.
+	-If the second player dies, but the first player finishes the level, the second player will start the next level with one heart.
+	-Rewrote a lot of code just so multiplayer would function.
+		-Changed the menu layout.
+		-Changed the help code again.
+			-Instead of treating each of the help texts as separate, I now treat them all as part of the same array.
+			-Reduces the amount of objects I made that had to deal with for help.
+			-There is help text for player 2.
+		-Changed moving platform code for when player is on (so there can be two players on it independently).
+	-The second player's animation counter is offset the first player so their animations are not in sync and makes the game look more natural.
+	-If the second player goes too far from the first player, the second player will teleport to player one's position in the same state that player one is in.
+	-Camera focuses on the second player if the first player dies.
+-Fixed jumping on moving platforms.
+	-Jump velocities now reset as soon as a player connects with a platform.
+-Fixed daytime/nighttime logic for real.
+	-This has been claimed before, but it is legitimately fixed this time.
+-Fixed Joe death sounds.
+	-Sometimes it didn't play.
+-Changed rendering system for optimizations.
+-Organized the resource files more (moved files around and renamed multiple files).

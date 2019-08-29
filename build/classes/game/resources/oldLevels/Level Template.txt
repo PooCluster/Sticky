@@ -1,0 +1,14 @@
+playerPos: 0 0
+joe:
+0 0
+pedaller:
+0 0
+flower:
+0 0
+coin:
+0 0
+fakeDirt:
+fakeRightDirt:
+score: tempScore
+movingPlatform:
+(int)x (int)y (int)distance (boolean)horizontal (boolean)vertical (int)speed ("move"/"fall")type ("dirt"/"stone")sprite

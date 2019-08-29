@@ -1,0 +1,20 @@
+playerPos: 720 352
+joe:
+1045 432
+1040 432
+pedaller:
+1110 432
+flower:
+420 416
+688 352
+832 416
+1088 432
+1360 416
+coin:
+752 352
+fakeDirt:
+fakeRightDirt:
+score: tempScore
+movingPlatform:
+900 416 128 false false 1 move dirt
+916 416 128 false false 1 move stone

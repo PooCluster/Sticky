@@ -1,0 +1,20 @@
+-Singleplayer
+	-New Game
+	-Load Game
+	-Save Game
+-Multiplayer
+	-Local
+	-Online
+-Gallery
+	-Next
+	-Previous
+-Settings
+	-Music - +
+	-Music On Off
+	-SFX - +
+	-SFX On Off
+	-Brightness - +
+	-Controls
+		*Make a Diagram that draws out the keyboard with different keys*
+-Help
+-Exit

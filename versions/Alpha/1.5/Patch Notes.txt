@@ -1,0 +1,9 @@
+-Added moving platforms!
+	-These can go both left and right, and I can control how far I want them to travel.
+	-You can latch onto them from under.
+-Added death animations to the clouds!
+-Fixed player idle animation. One frame was messed up.
+	-The animations are overall smoother.
+-Made energy ball animations a little better.
+-Made secret walls easier to navigate in!
+-Made the clouds look less like another thing.

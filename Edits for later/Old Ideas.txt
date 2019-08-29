@@ -1,0 +1,65 @@
+Keyboard
+Render
+Game
+	-Texture
+		-Tile
+			-Sprite
+				-Grass
+				-Fill
+	-Level
+		-RandomLevel
+	-Entity
+		-Mob
+			-Player
+			-Enemy
+				-One that follows
+				-One that just moves and changes direction when it collides.
+				-One that pops up out of the ground!
+
+Fill: ffdc22e6
+Grass = ff00ff00
+GrassDirt = ffffff00
+Dirt = ffff0000
+Sky = ff0000ff
+
+Checklist:
+-Need a game state manager
+	-Menu
+	-Level
+	-Pause
+-Animation for player
+-Collision
+-Create a story!
+	-Transitin between levels
+		-Victory boolean.
+-Texts
+	-"""","".""?""!""1""2""3""4""5""6""7""8""9""0"
+-Player attack(s).
+-Make 8-Bit Music!
+-When ball hits cloud, cloud.setPos(0, whatever height);
+-Menu will be the tutorial stage.
+-Story will be the next stage.
+-Load/Save with File I/O.
+-Load the story and convert each letter into text sprite.
+-Help menu.
+	-M FOR NEXT LEVEL.
+	-N FOR PREVIOUS LEVEL.
+	-R FOR RESTART.
+	-B FOR SAVE.
+	-V FOR LOAD.
+
+-Add items (power ups).
+-Add a spring to jump on.
+-Add multiplayer (player 2 cannot leave player 1's screen).
+-Endless runner.
+-New enemy: Jim, health 3. Pops out of the ground every 5 seconds.
+-Create a scoring system.
+-Add projectiles to Pedaller.
+-Read levels from File once: store in array
+
+
+
+
+WRITE IN THE WRITE UP:
+	-I found the game engine code online (render/sprite/tile/textures classes).
+	-I made the contents which are provided in the game (mob classes/the actual PNG's/text in game with file reader. Also game logic like loading/restarting levels.).

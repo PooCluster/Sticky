@@ -1,0 +1,15 @@
+-Implemented the name, and made a logo for the game!
+	-Pops up at the very beginning of the game
+	-Decided the name of the game!
+-Added sound effects
+	-Also, you can now change the volume of each of SFX or music or you could turn them off completely.
+-Minor thing is that your jump now cancels when you release jump, so you're not limited to just one jump.
+-Brightness now works.
+	-Performance issue.
+-In Survival Mode
+	-I made it random from the very start - used to always start on the left side.
+	-High Scores now work!
+-Implemented night and day!
+	-It detects the actual time in the real world and then it will adjust the time in the game accordingly to either night or day.
+-Fixed Exit button
+	-It used to take two button clicks.

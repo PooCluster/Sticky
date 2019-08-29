@@ -1,0 +1,16 @@
+Version 1.6
+-Added height camera lock.
+-Added pit falls of doom!
+-Added falling platforms!
+-Made energy ball render behind clouds so the impact looks more realistic.
+-Made flowers update when they are within a certain distance of the player.
+	-Makes flowers' animations not in sync with each other making it a little more realistic.
+	-Not really an optimization, because I saw no framerate improvements.
+-Made Pedaller update also when within a certain distance of the player.
+-Made help text code better.
+	-No longer reads from the file every time and create an object every single 1/60 second.
+	-It now is an actual object that has methods for loading the help texts from memory.
+-Made levels cooler and bigger.
+	-I will add more in the future.
+-Removed test feature:
+	-If you pressed help and it was day, then the day would tranvsition to night.

@@ -1,0 +1,11 @@
+PAGE X Y [WORDS]
+PAGE - Will locate to next page
+-if -1, close the menu after action
+WORDS - can decide what is boxed
+-[SFX_-_+] vs. SFX[-][+]
+-Appears to player as well as defines what type of button
+
+
+[CONTINUE] - close the menu
+[RESTART] - restart the level, then close the menu
+[EXIT] - set game state to 1, then close the menu

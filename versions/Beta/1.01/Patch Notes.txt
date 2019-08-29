@@ -1,0 +1,20 @@
+Version 1.01 Beta
+-Added a new color flower: blue.
+-Improved rendering even more by checking y-coordinates also.
+-Improved sound in the game:
+	-Fixed Slimey Joe's sfx:
+		-Sound effects get updated based on player 2 if player 1 is dead.
+		-Death sounds are louder than they were before to compensate for the loud ball explosions.
+		-Sound doesn't play anymore if not within the camera's y boundaries.
+	-Menu:
+		-The sound effects for the menu no longer play during the beginning cutscene.
+		-A click now plays whenever the menu is interacted with.
+		-When music is turned off, it saves the position and will resume once the music is turned on again.
+		-There is no more delay when changing the volume of the music!
+-Fixed player 1's slow movement.
+	-Player 1 would blur when moving slowly.
+-Fixed bug when player 2 was dead.
+	-Player 2 would constantly teleport to player 1.
+-Fixed bug when both players are dead and new game is clicked.
+-Changed interaction with moving platforms.
+	-When the player dies, the player no longer falls off of the platform (still falls off falling platform).

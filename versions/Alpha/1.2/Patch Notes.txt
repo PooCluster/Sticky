@@ -1,0 +1,4 @@
+-Added a menu system!
+-Fixed player movement animations when left and right are pressed at the same time.
+-Uncapped FPS.
+-Retextured the dirt.

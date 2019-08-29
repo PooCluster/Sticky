@@ -1,0 +1,53 @@
+Version 1.1 Beta
+-Added clouds back in; accidentally voided them in the rendering process.
+	-Clouds now deal with their own positioning within each level, so I don't have to think about them.
+-Added more music into the game; my friend wanted to write some music for me.
+	-For the title screen, map selection, and game over screen.
+-Added a score counter for anything that changes the score.
+	-It can also show when the player gets hurt.
+-Added momentum.
+	-Momentum only applies when sprinting.
+	-Maximum speed is faster than sprinting speed in previous verions.
+	-The momentum gets cancelled when colliding with a wall.
+	-The only way to gain speed through sprinting is when the player is on some surface.
+		-The player cannot gain speed in the air, only maintain it.
+	-When sprint is let go, the player will slow down until stopped.
+		-The momentum can be cancelled by moving in the opposite direction after letting go of sprint.
+	-Energy Ball is also affected by the speed at which the player is going.
+-Added a class called GameStateManager which introduces the idea of different game states in the game.
+	-Title Screen State
+		-Basically the level state, but with a uncloseable menu and a logo of Sticky.
+	-Map Level Selection State
+		-A new part of the game design that helps the player visualize the progress of the game.
+	-Level State
+		-This is what the previous versions always had.
+-Improved the menu system again.
+	-Added a button class.
+		-Reduces hard coding, and makes the menu more modular.
+		-The buttons can be anywhere on the screen.
+		-One button unit can have multiple outlines for boxing the text.
+	-Different menu options for the different game states.
+	-Menu is now equivalent to pause, except in the Title Screen State.
+	-The player is now allowed to change controls!
+		-Text I still need to add (it will glitch if trying to change to it): ` ; [ ] \
+-Improved multiplayer experience.
+	-The Camera class now focuses on both players instead of player one (felt unfair priority).
+	-If the players get far enough from each other, split screen!
+		-The leftmost player will always be on the left.
+		-The rightmost player will always be on the right.
+-Improved rendering (other than split screen mode).
+	-The menu, hearts, and score all now render independently of player one's position.
+-Improved the loading/saving feature.
+	-It stores name, levels completed, health, score, and the preferred controls of the players.
+	-There are now 3 different load/save slots.
+	-The slots can be named.
+	-There is overriding logic.
+-Organized the code extremely.
+	-The main class went from 905 lines to 121 lines of code.
+	-Converted all entity arrays into ArrayList (an object that handles arrays).
+	-Changed level names so all of them are numerically based.
+-Removed Survival Mode.
+-Removed help texts.
+	-Unnecessary now that the controls can be figured out within the menu.
+-Removed brightness setting in the menu.
+-Removed pause text.

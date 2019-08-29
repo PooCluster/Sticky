@@ -1,0 +1,13 @@
+playerPos: 400 336
+joe:
+pedaller:
+flower:
+180 336
+320 336
+470 336
+620 336
+coin:
+fakeDirt:
+fakeRightDirt:
+score: 0
+movingPlatform:
